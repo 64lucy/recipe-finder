@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Recipe Finder</title>
+</head>
+
+<body>
+  <header>
+    <h1>Recipe Finder</h1>
+    <p>Discover delicious recipes for every mood</p>
+
+    <div class="search">
+      <input id="searchInput" placeholder="🔍 search for recipes...">
+      <button id="searchBtn">Search</button>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="categories">
+      <ul id="categoryList" class="navigation-List">
+      </ul>
+    </div>
+
+    <div id="dishContainer" class="dish-Container"></div>
+
+    <section id="featuredRecipe" class="featured-recipe recipe card">
+      <h2>Creamy Tomato Pasta</h2>
+      <div id="recipeDetails"></div>
+      <button id="FullRecipeBtn">Full Recipe</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
