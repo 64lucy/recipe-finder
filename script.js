@@ -28,7 +28,7 @@ categories.forEach(function (category) {
 const recipes = [
     {
         name: "Creamy Tomato Pasta",
-        image: "images/image/pasta.jpg",
+        image: "images/Creamy-Tomato-Pasta-1.jpg",
         time: "25 min",
         difficulty: "Easy",
         serving: 4,
