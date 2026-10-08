@@ -79,7 +79,7 @@ const recipes = [
 ];
 const featuredRecipe = {
     name: "Creamy Tomato Pasta",
-    image: "images/featuredpasta.jpg",
+    image: "images/featuredPasta.jpg",
     time: "25 min",
     difficulty: "Easy",
     servings: 2,
