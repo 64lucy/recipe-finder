@@ -11,8 +11,6 @@ body {
   font-family:Arial, Helvetica, sans-serif;
 }
 
-
-
 header {
   background:url("images/food.jpg");
   padding:15px;
@@ -78,8 +76,6 @@ main {
 .navigation-List li:hover{
   background:brown;
 }
-
-
 .dish-Container {
   display:grid;
   grid-column:1;
