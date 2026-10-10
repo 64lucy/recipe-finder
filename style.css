@@ -258,7 +258,7 @@ main {
 }
 @media(max-width: 480px) {
   .dish-Container {
-    grid-template-columns:1fr;
+    grid-template-columns:1fr,1fr;
     gap:20px;
   }
 
